@@ -1,4 +1,5 @@
-*******************************************************Exo3********************************************************
+
+*******************************************************Exo4********************************************************
 Question 1:
 
 Dans un test pour automatiser la méthode jouer de la classe Jeu, les objets qui dépendent de la classe Jeu et qui doivent être mockés sont :
@@ -31,8 +32,8 @@ Le test vérifiera si cette exception est bien levée dans cette situation, ce q
 
 Question 5:
 
-Pour tester le cas où le joueur est insolvable, vous pouvez mocker l'objet Joueur de manière à ce qu'il lève une exception lorsque la méthode debiter est appelée. 
-En vérifiant que l'exception est levée, vous pouvez vous assurer que le jeu ne touche pas aux dés. 
+Pour tester le cas où le joueur est insolvable, on peit mocker l'objet Joueur de manière à ce qu'il lève une exception lorsque la méthode debiter est appelée. 
+En vérifiant que l'exception est levée, et on assure que le jeu ne touche pas aux dés. 
 Ce test est principalement un test d'état, Nous vérifions également qu'aucune interaction indésirable n'a lieu entre le jeu et les dés lorsque le joueur est insolvable. 
 En vérifiant qu'aucune méthode lancer() n'est appelée sur l'objet De, nous nous assurons que le jeu ne tente pas de lancer les dés dans cette situation.
 Cela garantit que le jeu se comporte conformément aux spécifications lorsqu'il est confronté à un joueur insolvable,
